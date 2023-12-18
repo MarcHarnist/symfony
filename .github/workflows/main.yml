@@ -4,14 +4,15 @@ on:
   push: 
     branches: [ main ] 
 jobs: 
-    ci: 
-      runs-on: ubuntu-latest 
-      steps: # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v2
+  ci: 
+    runs-on: ubuntu-latest 
+    steps:
+    # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+    - uses: actions/checkout@v2
 
-      - name: Setup PHP, extensions and composer with shivammathur/setup-php uses: shivammathur/setup-php@v2
+    - name: Setup PHP, extensions and composer with shivammathur/setup-php uses: shivammathur/setup-php@v2
         with:
           extensions: mbstring, xml, ctype, iconv, intl, pdo, pdo_mysql, dom, filter, gd, iconv, json, mbstring, pdo
       
-      name: LS 
+      - name: LS 
       run: ls
