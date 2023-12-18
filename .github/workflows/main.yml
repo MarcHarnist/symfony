@@ -15,5 +15,5 @@ jobs:
       with:
         extensions: mbstring, xml, ctype, iconv, intl, pdo, pdo_mysql, dom, filter, gd, iconv, json, mbstring, pdo
       
-      - name: LS 
+    - name: LS 
       run: ls
