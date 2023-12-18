@@ -14,7 +14,7 @@ jobs:
       uses: shivammathur/setup-php@v2
       with:
         extensions: mbstring, xml, ctype, iconv, intl, pdo, pdo_mysql, dom, filter, gd, iconv, json, mbstring, pdo
-                  - name: Cache
+         - name: Cache
       uses: actions/cache@v3.3.2
       with:
         # A list of files, directories, and wildcard patterns to cache and restore
