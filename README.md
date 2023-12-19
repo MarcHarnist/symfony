@@ -1,3 +1,8 @@
+Formation : faire tourner Symfony et tester chez Github, dans un pipeline, avec les outils en option, exemple: php.
+=======================
+2023 - Sup'TG Niort
+
+
 Symfony Demo Application
 ========================
 
